@@ -12,7 +12,7 @@ import 'multi_image_stream_completer.dart';
 
 import 'package:cached_network_image_platform_interface/cached_network_image_platform_interface.dart'
     if (dart.library.io) '_image_loader.dart'
-    if (dart.library.html) 'package:cached_network_image_web/cached_network_image_web.dart'
+    if (dart.library.html) '_image_loader.dart'
     show ImageLoader;
 
 /// Function which is called after loading the image failed.
